@@ -53,6 +53,8 @@ We recommend Zeit. Its a great service for running Probot apps. After creating t
 Your app should be up and running.
 
 ## Permissions & Events :unlock:
-
+##### Github
 - [X] Issues - access Read-only permissions
 - [X] Issues - subscribe events
+##### Twitter
+- [X] Read and Write
