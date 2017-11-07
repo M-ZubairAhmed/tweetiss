@@ -5,7 +5,7 @@
     "A bot which tweets the issues which are opened on your github repository ",
   "author":
     "M-ZubairAhmed <ahmedzubair216@gmail.com> (https://github.com/M-ZubairAhmed)",
-  "license": "MIT",
+  "license": "ISC",
   "repository": "https://github.com/M-ZubairAhmed/tweet-issues.git",
   "scripts": {
     "start-probot": "probot run ./index.js",
