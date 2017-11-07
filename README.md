@@ -2,7 +2,7 @@
 
 *A bot which tweets the issues which are opened on your github repository*
 
-## Setup
+## Setup :zap:
 ###### 1. Clone repository
 `$ git clone https://github.com/M-ZubairAhmed/tweet-issues.git`
 `$ cd tweet-issues`
@@ -27,10 +27,32 @@
 ######  6. Start app
 `$ npm start`
 
-## Deploy
-If you would like to run your own instance of this app, see the [docs for deployment](https://probot.github.io/docs/deployment/).
+You should have a local running app.
 
-#### Permissions & Events
+## Deploy :rocket:
+To be able to use this bot with your account, you would need to deploy it in cloud.
+We recommend Zeit. Its a great service for running Probot apps. After creating the GitHub App:
+
+###### 1. Install the now CLI
+`$ npm i -g now`
+
+###### 2. Clone the app
+`$ git clone https://github.com/M-ZubairAhmed/tweet-issues.git`
+
+###### 3. Run now to deploy,
+- Replace the `APP_ID` and `WEBHOOK_SECRET` with the values for those variables, and
+- Set the path for the PRIVATE_KEY:
+```bash
+     $ now -e APP_ID=aaa \
+         -e WEBHOOK_SECRET=bbb \
+         -e PRIVATE_KEY="$(cat ~/Downloads/*.private-key.pem)"
+```
+###### 4. Update Webhook
+- Go back to your app settings page and update the `Webhook URL` to the URL of your deployment
+
+Your app should be up and running.
+
+#### Permissions & Events :unlock:
 
 - [X] Issues - access Read-only permissions
 - [X] Issues - subscribe events
