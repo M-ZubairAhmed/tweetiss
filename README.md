@@ -2,6 +2,12 @@
 
 *A bot which tweets the issues which are opened on your github repository*
 
+## Requirement :mouse:
+- [X] NodeJS >= 7.7.0
+- [X] NPM >= 4.0.0
+- [X] Twitter account with admin access
+- [X] Github repo with admin access
+
 ## Setup :zap:
 ###### 1. Clone repository
 `$ git clone https://github.com/M-ZubairAhmed/tweet-issues.git`
