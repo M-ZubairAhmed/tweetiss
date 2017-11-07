@@ -1,0 +1,19 @@
+{
+  "name": "tweet-issues",
+  "description":
+    "A bot which tweets the issues which are opened on your github repository ",
+  "keywords": ["node", "github", "twitter", "probot"],
+  "repository": "https://github.com/M-ZubairAhmed/tweet-issues.git",
+  "env": {
+    "PRIVATE_KEY": {
+      "description":
+        "the private key you downloaded when creating the GitHub Integration"
+    },
+    "INTEGRATION_ID": {
+      "description": "the ID of your GitHub Integration"
+    },
+    "WEBHOOK_SECRET": {
+      "description": "the secret configured for your GitHub Integration"
+    }
+  }
+}

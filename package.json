@@ -1,0 +1,36 @@
+{
+  "name": "tweet-issues",
+  "version": "1.0.0",
+  "description":
+    "A bot which tweets the issues which are opened on your github repository ",
+  "author":
+    "M-ZubairAhmed <ahmedzubair216@gmail.com> (https://github.com/M-ZubairAhmed)",
+  "license": "MIT",
+  "repository": "https://github.com/M-ZubairAhmed/tweet-issues.git",
+  "scripts": {
+    "start-probot": "probot run ./index.js",
+    "start": "nodemon --exec npm run start-probot",
+    "test": "jest",
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "precommit": "npm run lint-fix && npm run lint && npm run test"
+  },
+  "dependencies": {
+    "probot": "^3.0.0",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "localtunnel": "^1.8.2",
+    "nodemon": "^1.12.1",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">= 7.7.0",
+    "npm": ">= 4.0.0"
+  },
+  "standard": {
+    "env": ["jest"]
+  }
+}
