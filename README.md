@@ -1,6 +1,11 @@
-# Tweet Issue Bot
-
-*A bot which tweets the issues which are opened on your github repository*
+<h1 align="center">Tweet Issue Bot</h1>
+<p align="center">
+  <img src="https://avatars3.githubusercontent.com/in/6545?s=120&u=519958182e5935f7132e14dc6a7fdf3a3a3a56ea&v=4"/>
+</p>
+<h2 align="center">
+A bot which tweets the issues which are opened on your github repository
+</h2>
+<br/>
 
 ## Requirement :mouse:
 - [X] NodeJS >= 7.7.0
@@ -11,6 +16,7 @@
 ## Setup :zap:
 ###### 1. Clone repository
 `$ git clone https://github.com/M-ZubairAhmed/tweet-issues.git`
+<br/>
 `$ cd tweet-issues`
 
 ###### 2. Install dependencies
