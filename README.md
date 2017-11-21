@@ -1,4 +1,4 @@
-<h1 align="center">Tweetiss Bot</h1>
+<h1 align="center">Tweetiss</h1>
 <p align="center">
   <img src="https://avatars3.githubusercontent.com/in/6545?s=120&u=519958182e5935f7132e14dc6a7fdf3a3a3a56ea&v=4"/>
 </p>
